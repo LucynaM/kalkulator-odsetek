@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<label for="wklad">Wpłata w PLN </label>
+	<input type="text" id="wklad" value="0" placeholder="0"> <br />
+	<label for="kapitalizacja" >Częstotliwość kapitalizacji</label>
+	<select name="kapitalizacja" id="kapitalizacja" placeholder="0">
+		<option value="1" selected>Rocznie</option>
+		<option value="4">Kwartalnie</option>
+		<option value="12">Miesięcznie</option>
+	</select> <br />
+	<label for="stopa">Stopa zwrotu w %</label>
+	<input type="text" id="stopa" placeholder="0"> <br />
+	<label for="lata">Liczba lat</label>
+	<input type="text" id="lata" placeholder="0"> <br />
+	<label for="belka">Podatek Belki 19%</label>
+	<input type="checkbox" id="belka"> <br />
+	<input type="button" id="oblicz" value = "Oblicz"> <br />
+	<p id = "wynik"></p>
+	
+	<script src="js/calculator.js"></script>
+</body>
+</html>
