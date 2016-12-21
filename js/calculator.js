@@ -20,7 +20,7 @@ function calculator() {
 		K -= (K-ko)*(0.19);
 	} 
 	
-	console.log(K);
+	console.log("wynik: " + K);
  	document.getElementById("wynik").innerHTML = Math.round(K*100)/100;	
 	
 	/*document.getElementById("wynik").innerHTML = parseFloat(K).toFixed(2); wersja alternatywna do 100*/
